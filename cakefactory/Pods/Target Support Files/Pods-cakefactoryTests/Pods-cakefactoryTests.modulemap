@@ -1,0 +1,6 @@
+framework module Pods_cakefactoryTests {
+  umbrella header "Pods-cakefactoryTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
