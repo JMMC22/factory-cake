@@ -11,13 +11,16 @@
 		1A956580A55F9C7523B3D4D3 /* Pods_cakefactory_cakefactoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73036B008A03F4E1ABC6B44 /* Pods_cakefactory_cakefactoryUITests.framework */; };
 		AFFC3EFE274953DA00F695F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3EFD274953DA00F695F1 /* AppDelegate.swift */; };
 		AFFC3F00274953DA00F695F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3EFF274953DA00F695F1 /* SceneDelegate.swift */; };
-		AFFC3F02274953DA00F695F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3F01274953DA00F695F1 /* ViewController.swift */; };
+		AFFC3F02274953DA00F695F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3F01274953DA00F695F1 /* MainViewController.swift */; };
 		AFFC3F05274953DB00F695F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFC3F03274953DB00F695F1 /* Main.storyboard */; };
 		AFFC3F07274953DE00F695F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFC3F06274953DE00F695F1 /* Assets.xcassets */; };
 		AFFC3F0A274953DE00F695F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFC3F08274953DE00F695F1 /* LaunchScreen.storyboard */; };
 		AFFC3F15274953DE00F695F1 /* cakefactoryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3F14274953DE00F695F1 /* cakefactoryTests.swift */; };
 		AFFC3F1F274953DE00F695F1 /* cakefactoryUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3F1E274953DE00F695F1 /* cakefactoryUITests.swift */; };
 		AFFC3F21274953DE00F695F1 /* cakefactoryUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3F20274953DE00F695F1 /* cakefactoryUITestsLaunchTests.swift */; };
+		AFFC3F3627495A7100F695F1 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFC3F3327495A7100F695F1 /* Roboto-Regular.ttf */; };
+		AFFC3F3727495A7100F695F1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFC3F3427495A7100F695F1 /* Roboto-Medium.ttf */; };
+		AFFC3F3827495A7100F695F1 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFFC3F3527495A7100F695F1 /* Roboto-Bold.ttf */; };
 		BC361475C3D6DD9868A1502C /* Pods_cakefactoryTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14BF5D3A427EB9485B31B2E /* Pods_cakefactoryTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -48,7 +51,7 @@
 		AFFC3EFA274953DA00F695F1 /* cakefactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cakefactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFC3EFD274953DA00F695F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFFC3EFF274953DA00F695F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AFFC3F01274953DA00F695F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFFC3F01274953DA00F695F1 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		AFFC3F04274953DB00F695F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AFFC3F06274953DE00F695F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFFC3F09274953DE00F695F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +61,9 @@
 		AFFC3F1A274953DE00F695F1 /* cakefactoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cakefactoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFC3F1E274953DE00F695F1 /* cakefactoryUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cakefactoryUITests.swift; sourceTree = "<group>"; };
 		AFFC3F20274953DE00F695F1 /* cakefactoryUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cakefactoryUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AFFC3F3327495A7100F695F1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		AFFC3F3427495A7100F695F1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		AFFC3F3527495A7100F695F1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
 		BD95F2451ABF96A4AF07FF1F /* Pods-cakefactory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cakefactory.release.xcconfig"; path = "Target Support Files/Pods-cakefactory/Pods-cakefactory.release.xcconfig"; sourceTree = "<group>"; };
 		D14BF5D3A427EB9485B31B2E /* Pods_cakefactoryTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cakefactoryTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E73036B008A03F4E1ABC6B44 /* Pods_cakefactory_cakefactoryUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cakefactory_cakefactoryUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -126,12 +132,8 @@
 		AFFC3EFC274953DA00F695F1 /* cakefactory */ = {
 			isa = PBXGroup;
 			children = (
-				AFFC3EFD274953DA00F695F1 /* AppDelegate.swift */,
-				AFFC3EFF274953DA00F695F1 /* SceneDelegate.swift */,
-				AFFC3F01274953DA00F695F1 /* ViewController.swift */,
-				AFFC3F03274953DB00F695F1 /* Main.storyboard */,
-				AFFC3F06274953DE00F695F1 /* Assets.xcassets */,
-				AFFC3F08274953DE00F695F1 /* LaunchScreen.storyboard */,
+				AFFC3F2E274957D800F695F1 /* Resources */,
+				AFFC3F2D274957C800F695F1 /* Sources */,
 				AFFC3F0B274953DE00F695F1 /* Info.plist */,
 			);
 			path = cakefactory;
@@ -154,6 +156,53 @@
 			path = cakefactoryUITests;
 			sourceTree = "<group>";
 		};
+		AFFC3F2D274957C800F695F1 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				AFFC3F312749580000F695F1 /* Splash */,
+				AFFC3F30274957F500F695F1 /* Main */,
+				AFFC3EFD274953DA00F695F1 /* AppDelegate.swift */,
+				AFFC3EFF274953DA00F695F1 /* SceneDelegate.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		AFFC3F2E274957D800F695F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AFFC3F3227495A4600F695F1 /* Fonts */,
+				AFFC3F06274953DE00F695F1 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		AFFC3F30274957F500F695F1 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AFFC3F01274953DA00F695F1 /* MainViewController.swift */,
+				AFFC3F03274953DB00F695F1 /* Main.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		AFFC3F312749580000F695F1 /* Splash */ = {
+			isa = PBXGroup;
+			children = (
+				AFFC3F08274953DE00F695F1 /* LaunchScreen.storyboard */,
+			);
+			path = Splash;
+			sourceTree = "<group>";
+		};
+		AFFC3F3227495A4600F695F1 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				AFFC3F3527495A7100F695F1 /* Roboto-Bold.ttf */,
+				AFFC3F3427495A7100F695F1 /* Roboto-Medium.ttf */,
+				AFFC3F3327495A7100F695F1 /* Roboto-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		E1D56348E8979CA023C9BECE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -164,7 +213,6 @@
 				526E7CF7049ABE286573E500 /* Pods-cakefactoryTests.debug.xcconfig */,
 				2E085303C276DBF45DE7634D /* Pods-cakefactoryTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -275,8 +323,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFFC3F3727495A7100F695F1 /* Roboto-Medium.ttf in Resources */,
 				AFFC3F0A274953DE00F695F1 /* LaunchScreen.storyboard in Resources */,
+				AFFC3F3827495A7100F695F1 /* Roboto-Bold.ttf in Resources */,
 				AFFC3F07274953DE00F695F1 /* Assets.xcassets in Resources */,
+				AFFC3F3627495A7100F695F1 /* Roboto-Regular.ttf in Resources */,
 				AFFC3F05274953DB00F695F1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AFFC3F02274953DA00F695F1 /* ViewController.swift in Sources */,
+				AFFC3F02274953DA00F695F1 /* MainViewController.swift in Sources */,
 				AFFC3EFE274953DA00F695F1 /* AppDelegate.swift in Sources */,
 				AFFC3F00274953DA00F695F1 /* SceneDelegate.swift in Sources */,
 			);
@@ -480,7 +531,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -535,7 +586,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -566,7 +617,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cakefactory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cakefactory.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -595,7 +646,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.cakefactory;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cakefactory.test;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
