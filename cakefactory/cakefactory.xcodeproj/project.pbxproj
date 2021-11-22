@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		0D828C9665143FE62233F9D9 /* Pods_cakefactory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C30F156067DC2047D0BA704 /* Pods_cakefactory.framework */; };
 		1A956580A55F9C7523B3D4D3 /* Pods_cakefactory_cakefactoryUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E73036B008A03F4E1ABC6B44 /* Pods_cakefactory_cakefactoryUITests.framework */; };
+		AFB134A5274B9005009FAEC5 /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB134A4274B9005009FAEC5 /* MainViewModel.swift */; };
+		AFB134A8274B9115009FAEC5 /* Cake.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB134A7274B9115009FAEC5 /* Cake.swift */; };
+		AFB134AB274B9293009FAEC5 /* CakeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFB134AA274B9293009FAEC5 /* CakeService.swift */; };
 		AFFC3EFE274953DA00F695F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3EFD274953DA00F695F1 /* AppDelegate.swift */; };
 		AFFC3F00274953DA00F695F1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3EFF274953DA00F695F1 /* SceneDelegate.swift */; };
 		AFFC3F02274953DA00F695F1 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3F01274953DA00F695F1 /* MainViewController.swift */; };
@@ -48,6 +51,9 @@
 		8E33745D8D51C6ACA3839C99 /* Pods-cakefactory-cakefactoryUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cakefactory-cakefactoryUITests.release.xcconfig"; path = "Target Support Files/Pods-cakefactory-cakefactoryUITests/Pods-cakefactory-cakefactoryUITests.release.xcconfig"; sourceTree = "<group>"; };
 		9A3A24DCDD84955280956F5C /* Pods-cakefactory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-cakefactory.debug.xcconfig"; path = "Target Support Files/Pods-cakefactory/Pods-cakefactory.debug.xcconfig"; sourceTree = "<group>"; };
 		9C30F156067DC2047D0BA704 /* Pods_cakefactory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_cakefactory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFB134A4274B9005009FAEC5 /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		AFB134A7274B9115009FAEC5 /* Cake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cake.swift; sourceTree = "<group>"; };
+		AFB134AA274B9293009FAEC5 /* CakeService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CakeService.swift; sourceTree = "<group>"; };
 		AFFC3EFA274953DA00F695F1 /* cakefactory.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cakefactory.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AFFC3EFD274953DA00F695F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AFFC3EFF274953DA00F695F1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -107,6 +113,22 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		AFB134A6274B910B009FAEC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AFB134A7274B9115009FAEC5 /* Cake.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AFB134A9274B9287009FAEC5 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				AFB134AA274B9293009FAEC5 /* CakeService.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		AFFC3EF1274953DA00F695F1 = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +154,8 @@
 		AFFC3EFC274953DA00F695F1 /* cakefactory */ = {
 			isa = PBXGroup;
 			children = (
+				AFB134A9274B9287009FAEC5 /* API */,
+				AFB134A6274B910B009FAEC5 /* Models */,
 				AFFC3F2E274957D800F695F1 /* Resources */,
 				AFFC3F2D274957C800F695F1 /* Sources */,
 				AFFC3F0B274953DE00F695F1 /* Info.plist */,
@@ -181,6 +205,7 @@
 			children = (
 				AFFC3F01274953DA00F695F1 /* MainViewController.swift */,
 				AFFC3F03274953DB00F695F1 /* Main.storyboard */,
+				AFB134A4274B9005009FAEC5 /* MainViewModel.swift */,
 			);
 			path = Main;
 			sourceTree = "<group>";
@@ -423,8 +448,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				AFFC3F02274953DA00F695F1 /* MainViewController.swift in Sources */,
+				AFB134AB274B9293009FAEC5 /* CakeService.swift in Sources */,
 				AFFC3EFE274953DA00F695F1 /* AppDelegate.swift in Sources */,
+				AFB134A8274B9115009FAEC5 /* Cake.swift in Sources */,
 				AFFC3F00274953DA00F695F1 /* SceneDelegate.swift in Sources */,
+				AFB134A5274B9005009FAEC5 /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

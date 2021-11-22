@@ -9,11 +9,26 @@ import UIKit
 
 class MainViewController: UIViewController {
 
+    var viewModel: MainViewModelProtocol?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        setViewModel()
+        setDelegates()
+        viewModel?.getCakeList()
     }
 
+    private func setViewModel() {
+        viewModel = MainViewModel(cakeService: CakeService())
+    }
 
+    private func setDelegates() {
+        viewModel?.delegate = self
+    }
+}
+
+
+extension MainViewController: MainViewModelDelegate {
+    
 }
 
