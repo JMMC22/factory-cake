@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Cake: Codable {
+struct Cake: Codable, Hashable {
     var title: String?
     var description: String?
     var image: String?

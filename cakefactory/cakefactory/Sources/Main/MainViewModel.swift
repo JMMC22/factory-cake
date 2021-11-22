@@ -20,11 +20,24 @@ class MainViewModel: MainViewModelProtocol {
         cakeService.getCakes(completionHandler: { result in
             switch result {
             case .success(let cakes):
-                print(cakes)
+                self.getCakeListDidSuccess(cakes: cakes)
             case .failure(let error):
                 print(error)
             }
         })
+    }
+
+    private func getCakeListDidSuccess(cakes: [Cake]) {
+        DispatchQueue.main.async {
+            let sortedCakeList = self.sortListCakes(cakes: cakes)
+            self.delegate?.fetchData(cakes: sortedCakeList)
+        }
+    }
+
+    private func sortListCakes(cakes: [Cake]) -> [Cake] {
+        var sortedList: [Cake] = []
+        sortedList = cakes.uniqued()
+        return sortedList.sorted(by: { $0.title! < $1.title! })
     }
 
 }
@@ -37,5 +50,5 @@ protocol MainViewModelProtocol {
 }
 
 protocol MainViewModelDelegate: AnyObject {
-
+    func fetchData(cakes: [Cake])
 }
